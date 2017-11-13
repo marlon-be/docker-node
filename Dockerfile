@@ -24,3 +24,6 @@ RUN apt-get install -y -f yarn
 
 # Apache Ant
 RUN apt-get install -y ant
+
+# GIT
+RUN apt-get install -y git-core
