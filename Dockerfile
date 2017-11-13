@@ -1,7 +1,9 @@
-FROM ubuntu:latest
-MAINTAINER Jelte Steijaert <jelte.steijaert@marlon.be>
+FROM ubuntu:xenial
+MAINTAINER Marlon BVBA <info@marlon.be>
 
 ENV DEBIAN_FRONTEND noninteractive
+
+RUN apt-get update -y && apt-get install -y locales
 
 RUN locale-gen nl_BE.UTF-8
 ENV LC_ALL nl_BE.UTF-8
