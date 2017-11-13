@@ -6,5 +6,5 @@ Usage
 In your Dockerfile, use the following as the first line to build on this base image:
 
 ```
-    FROM jeltesteijaert/docker-node
+    FROM marlon-be/docker-node
 ```
